@@ -1,4 +1,4 @@
-#finding square of number without any built-in exponent function (math.pow) or operator (x**0.5)
+#finding square root of number without any built-in exponent function (math.pow) or operator (x**0.5)
 
 class Solution:
     def mySqrt(self, n: int) -> int:
@@ -9,4 +9,4 @@ class Solution:
             return int(x)
 if __name__ == "__main__":
     obj = Solution()
-    obj.mySqrt(0)
+    obj.mySqrt(0)    #must print answer as 0 (square of 0 is 0)
